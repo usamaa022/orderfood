@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div style="display: flex;">
+        <div style="display: flex; margin: 20px; ">
+            <div style="position: relative;">
+                <div class="divitem">
+                    <img class="imgcard" src="https://t3.ftcdn.net/jpg/00/96/19/86/360_F_96198695_oyJg0I7ELpXI6608FI942PX9LlRRyEnd.jpg" alt="">
+                    <div style="position: absolute; left: 32px; top: 140px; " >
+                      <button id="btn_ondivID" class="btn_ondiv" onclick="addcartbtn()"  >
+                        <div id="min" onclick="qttyshowminus()" style="background-color: white; border-radius: 10px; padding-top: 1px; width: 30px; height: 16.7px; margin-right: 15px; color: tomato; display: none;">
+                            -
+                         </div>
+                            <div id="ordertext">
+                                Order
+                            </div>
+                                <div id="plus" onclick="qttyshowplus()" style="background-color: white; border-radius: 10px; padding-top: 1px; width: 30px; height: 16px; margin-left: 15px; color: tomato; display: none;">
+                                    +
+                                </div>
+                    </button>
+                    </div>
+                    <p >Dessert A</p>
+                    <p class="price">4$</p>
+                </div>
+
+            </div>
+            <div style="position: relative;">
+                <div class="divitem">
+                    <img class="imgcard" src="https://t3.ftcdn.net/jpg/00/96/19/86/360_F_96198695_oyJg0I7ELpXI6608FI942PX9LlRRyEnd.jpg" alt="">
+                    <div style="position: absolute; left: 32px; top: 140px; " >
+                      <button id="btn_ondivID" class="btn_ondiv" onclick="addcartbtn()"  >
+                        <div id="min" style="background-color: white; border-radius: 10px; padding-top: 1px; width: 30px; height: 16.7px; margin-right: 15px; color: tomato; display: none;">
+                            -
+                         </div>
+                            <div id="ordertext">
+                                Order
+                            </div>
+                                <div id="plus" style="background-color: white; border-radius: 10px; padding-top: 1px; width: 30px; height: 16px; margin-left: 15px; color: tomato; display: none;">
+                                    +
+                                </div>
+                    </button>
+                    </div>
+                    <p>Dessert 1</p>
+                    <p class="price">4$</p>
+                </div>
+
+            </div>
+            <div style="position: relative;">
+                <div class="divitem">
+                    <img class="imgcard" src="https://t3.ftcdn.net/jpg/00/96/19/86/360_F_96198695_oyJg0I7ELpXI6608FI942PX9LlRRyEnd.jpg" alt="">
+                    <div style="position: absolute; left: 32px; top: 140px; " >
+                      <button id="btn_ondivID" class="btn_ondiv" onclick="addcartbtn()"  >
+                        <div id="min" style="background-color: white; border-radius: 10px; padding-top: 1px; width: 30px; height: 16.7px; margin-right: 15px; color: tomato; display: none;">
+                            -
+                         </div>
+                            <div id="ordertext">
+                                Order
+                            </div>
+                                <div id="plus" style="background-color: white; border-radius: 10px; padding-top: 1px; width: 30px; height: 16px; margin-left: 15px; color: tomato; display: none;">
+                                    +
+                                </div>
+                    </button>
+                    </div>
+                    <p>Dessert 1</p>
+                    <p class="price">4$</p>
+                </div>
+
+            </div>
+            <div style="position: relative;">
+                <div class="divitem">
+                    <img class="imgcard" src="https://t3.ftcdn.net/jpg/00/96/19/86/360_F_96198695_oyJg0I7ELpXI6608FI942PX9LlRRyEnd.jpg" alt="">
+                    <div style="position: absolute; left: 32px; top: 140px; " >
+                      <button id="btn_ondivID" class="btn_ondiv" onclick="addcartbtn()"  >
+                        <div id="min" style="background-color: white; border-radius: 10px; padding-top: 1px; width: 30px; height: 16.7px; margin-right: 15px; color: tomato; display: none;">
+                            -
+                         </div>
+                            <div id="ordertext">
+                                Order
+                            </div>
+                                <div id="plus" style="background-color: white; border-radius: 10px; padding-top: 1px; width: 30px; height: 16px; margin-left: 15px; color: tomato; display: none;">
+                                    +
+                                </div>
+                    </button>
+                    </div>
+                    <p>Dessert 1</p>
+                    <p class="price">4$</p>
+                </div>
+
+            </div>
+               
+          
+        </div>
+        
+        <div>
+            <div class="cardorder">
+               <br>
+                <div style=" margin-left: 20px;">
+                  <p style="font-weight: bold;">Your Cart</p>
+                    <div style="display: flex;">
+                            <p >Dessert </p>
+                            <p style="margin-left: 20px;" id="qttycard" >0</p>
+                            <img class="imgcard" style="margin-left: auto;" src="https://t3.ftcdn.net/jpg/00/96/19/86/360_F_96198695_oyJg0I7ELpXI6608FI942PX9LlRRyEnd.jpg" alt="">
+
+                        </div>
+                    <button style=" border-radius: 30px;
+                    border: none;
+                    background-color: tomato;
+                    width: 120px;
+                    height: 30px;
+                    font-weight: bold;
+                    color: white;
+                     margin-top: 130px;
+                    margin-left: 100px;
+                   ">Place Order</button> 
+                </div>
+            </div>  
+            
+        </div>
+    </div>
+    
+</body>
+</html>
